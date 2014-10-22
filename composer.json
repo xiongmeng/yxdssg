@@ -7,6 +7,10 @@
 	"require": {
 		"laravel/framework": "4.2.*"
 	},
+    "repositories": [
+        {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
+        {"packagist": false}
+    ],
 	"autoload": {
 		"classmap": [
 			"app/commands",

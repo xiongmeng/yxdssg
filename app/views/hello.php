@@ -141,62 +141,62 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8 col-md-offset-2">
                 <table class="table table-bordered">
                     <tr>
                         <td>名　称：
                         </td>
                         <td>
-                            绥中县杨斌果业种植专业合作社
+                            义县东升水果专业合作社
                         </td>
                     </tr>
                     <tr>
                         <td>地　址：
                         </td>
                         <td>
-                            绥中县西甸子镇北杨家村屯
+                            义县张家堡镇一家峪村
                         </td>
                     </tr>
                     <tr>
                         <td>电　话：
                         </td>
                         <td>
-                            0429-6738460
+                            0416-7307023
                         </td>
                     </tr>
                     <tr>
                         <td>手　机：
                         </td>
                         <td>
-                            13998968108
+                            13941630378
                         </td>
                     </tr>
                     <tr>
                         <td>传　真：
                         </td>
                         <td>
-                            0429-6738460
+                            0416-7307023
                         </td>
                     </tr>
                     <tr>
                         <td>邮　箱：
                         </td>
                         <td>
-                            1019312905@qq.com
+                            2799006140@qq.com
                         </td>
                     </tr>
                     <tr>
                         <td>邮　编：
                         </td>
                         <td>
-                            125200
+                            121112
                         </td>
                     </tr>
                     <tr>
                         <td>联系人：
                         </td>
                         <td>
-                            杨斌
+                            商士民
                         </td>
                     </tr>
                 </table>
@@ -205,15 +205,6 @@
     </div>
 </section>
 <footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    地址：锦州市义县张家堡镇一家峪村 电话：0429-6738460 传真：0429-6738460
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="footer-below">
         <div class="container">
             <div class="row">

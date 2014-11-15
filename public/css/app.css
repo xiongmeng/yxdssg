@@ -1,0 +1,78 @@
+.page-scroll a {
+    color: white !important;
+}
+
+.con-tsb {
+    margin-top: 80px;
+    z-index: 1;
+}
+
+section {
+    padding: 80px 0;
+}
+
+#timeline {
+    width: 860px;
+    height: 440px;
+    overflow: hidden;
+    margin: 40px auto;
+    position: relative;
+    background: url('dot.gif') 210px top repeat-y;
+}
+
+#dates {
+    width: 215px;
+    height: 440px;
+    overflow: hidden;
+    float: left;
+    padding-left: 0;
+}
+
+#dates li {
+    list-style: none;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    padding-right: 20px;
+    text-align: right;
+    background: url('biggerdot.png') 208px center no-repeat;
+}
+
+#dates a {
+    line-height: 38px;
+    padding-bottom: 10px;
+}
+
+#dates .selected {
+    font-size: 38px;
+}
+
+#issues {
+    width: 630px;
+    height: 440px;
+    overflow: hidden;
+    float: right;
+    padding-left: 0;
+}
+
+#issues li {
+    width: 630px;
+    height: 440px;
+    list-style: none;
+}
+
+#issues li h1 {
+    color: #ffcc00;
+    font-size: 42px;
+    height: 52px;
+    line-height: 52px;
+    text-shadow: #000 1px 1px 2px;
+}
+
+#issues li p {
+    font-size: 14px;
+    margin: 10px;
+    line-height: 26px;
+    word-break: break-all;
+}

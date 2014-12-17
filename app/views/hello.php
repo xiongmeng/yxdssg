@@ -284,8 +284,7 @@
     <div class="footer-below">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12"> 版权所有：义县东升水果专业合作社 <a href="http://www.miibeian.gov.cn/"
-                                                            style="color:#fff">ICP备案编号：辽ICP备14017603号</a>
+                <div class="col-lg-12"> 版权所有：义县东升水果专业合作社 ICP备案编号：辽ICP备14017603号
                 </div>
             </div>
         </div>

@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>义县东升水果</title>
 
@@ -16,16 +15,16 @@
     <script type="text/javascript" src="/js/jquery.timelinr-0.9.53.js"></script>
 
 </head>
-<body id="page-top" class="index" style="background-color: #99CC01">
+<body id="page-top" class="index" style="background-color: #99CC01; padding-left: 15%;padding-right: 15%">
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="marg-rig" style="background-color: darkgreen">
+    <div style="background-color: darkgreen">
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
                     class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
             <h2 style="color: white">义县东升水果专业合作社</h2></div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-left" style="padding-top: 10px; margin-left:20px">
                 <li class="hidden"><a href="#page-top"></a></li>
                 <li class="hidden"><a href="#"></a></li>
                 <li class="page-scroll"><a href="#product">特色产品</a></li>
@@ -54,7 +53,7 @@
             </div>
         </div>
         <div class="row">
-            <div id="carousel-product" class="carousel slide" data-ride="carousel">
+            <div id="carousel-product" class="carousel slide">
                 <ol class="carousel-indicators">
                     <?php for ($index = 0; $index < count($products); $index++) { ?>
                         <li data-target="#carousel-product" data-slide-to="<?= $index ?>"
@@ -66,11 +65,11 @@
                         <div class="item <?= !empty($product['active']) ? 'active' : ''; ?>">
                             <img src="<?= $product['image'] ?>" class="img-responsive" data-holder-rendered="true"/>
 
-                            <div class="carousel-caption">
-                                <h3>First slide label</h3>
-
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </div>
+<!--                            <div class="carousel-caption">-->
+<!--                                <h3>First slide label</h3>-->
+<!---->
+<!--                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+<!--                            </div>-->
                         </div>
                     <?php } ?>
                 </div>
@@ -94,10 +93,10 @@
         </div>
         <div class="container" id="credit">
             <div class="row">
-                <div id="carousel-credit" class="carousel slide" data-ride="carousel">
+                <div id="carousel-credit" class="carousel slide">
                     <ol class="carousel-indicators">
                         <?php for ($index = 0; $index < count($credits); $index++) { ?>
-                            <li data-target="#carousel-product" data-slide-to="<?= $index ?>"
+                            <li data-target="#carousel-credit" data-slide-to="<?= $index ?>"
                                 class="<?= !empty($credits[$index]['active']) ? 'active' : ''; ?>"></li>
                         <?php } ?>
                     </ol>
@@ -105,12 +104,6 @@
                         <?php foreach ($credits as $credit) { ?>
                             <div class="item <?= !empty($credit['active']) ? 'active' : ''; ?>">
                                 <img src="<?= $credit['image'] ?>" class="img-responsive" data-holder-rendered="true"/>
-
-                                <div class="carousel-caption">
-                                    <h3>First slide label</h3>
-
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                </div>
                             </div>
                         <?php } ?>
                     </div>
@@ -136,7 +129,7 @@
         </div>
         <div class="container" id="guoMuFengCai">
             <div class="row">
-                <div id="carousel-guoMuFengCai" class="carousel slide" data-ride="carousel">
+                <div id="carousel-guoMuFengCai" class="carousel slide">
                     <ol class="carousel-indicators">
                         <?php for ($index = 0; $index < count($guoMuFengCais); $index++) { ?>
                             <li data-target="#carousel-guoMuFengCai" data-slide-to="<?= $index ?>"
@@ -148,12 +141,6 @@
                             <div class="item <?= !empty($guoMuFengCai['active']) ? 'active' : ''; ?>">
                                 <img src="<?= $guoMuFengCai['image'] ?>" class="img-responsive"
                                      data-holder-rendered="true"/>
-
-                                <div class="carousel-caption">
-                                    <h3>First slide label</h3>
-
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                </div>
                             </div>
                         <?php } ?>
                     </div>
@@ -182,7 +169,7 @@
                 <div id="timeline">
                     <ul id="dates">
                         <?php foreach ($histories as $history) { ?>
-                            <li><a href="#<?= 'timeline-' . $history['id'] ?>"><?= $history['id'];?></a></li>
+                            <li><a href="#<?= 'timeline-' . $history['id'] ?>"><?= $history['id']; ?></a></li>
                         <?php } ?>
                     </ul>
                     <ul id="issues">
@@ -296,12 +283,13 @@
 <script>
     $(function () {
         $('#timeline').timelinr({
-            orientation: 	'vertical',
-            issuesSpeed: 	300,
-            datesSpeed: 	100,
-            arrowKeys: 		'true',
-            startAt:		3
+            orientation: 'vertical',
+            issuesSpeed: 300,
+            datesSpeed: 100,
+            arrowKeys: 'true',
+            startAt: 3
         });
+        $('.carousel').carousel('pause');
     });
 </script>
 </body>
